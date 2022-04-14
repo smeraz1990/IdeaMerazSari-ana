@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Documento</title>
-    </head>
-    <body>
-        <h3>Hola mundo</h3>
 
-        <h3>Se agrego esto nuevo</h3>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Pagina principal</title>
+</head>
 
-    </body>
+<body>
+    <header id="mainHeader">
+        <img class="imgLogo" src="images/logogk.png">
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a>
+
+                    <ul>
+                        <li><a href="page/serviciotk.html">Tamik</a></li>
+                        <li><a href="page/servicioak.html">Audi-k</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="page/misionyvision.html">Mision y Vision</a></li>
+                <li><a href="page/contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="gridContainer">
+        <section class="secImgServicio">
+            <img class="imgServicio" src="images/imagenPrincipal.jpg">
+        </section>
+        <section class="secServicios">
+            <div class="contenedor_2_logos home_2_logos">
+                <div class="title_dos_logos">
+                    <h3><span>NUESTROS SERVICIOS</span> </h3>
+                </div>
+                <div class="ajustar_2_logos">
+                    <div class="divs_dos_logos">
+                        <div class="col_d_2_logo">
+                            <img class="img-fluid imgSitioGK" src="Images/imagentamik.png" alt="Programa Integral de Tamiz Metabólico e Intervención Temprana">
+                            <div class="txt_int_3l">
+                                <p> Támi-k es un programa integral de tamiz metabólico para la detección e intervención temprana de enfermedades metabólicas. </p>
+                            </div>
+                        </div>
+                        <div class="col_d_2_logo">
+                            <img class="img-fluid imgSitioGK" src="Images/imagenaudik.png" alt="Programa Integral de Tamiz Auditivo e Intervención Temprana">
+                            <div class="txt_int_3l">
+                                <p> Áudi-k es un programa integral de tamiz auditivo que permite la detección e intervención oportuna de diferentes grados de hipoacusia. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="secFooter">
+        <div class="container footer-container" style="margin-right: auto;margin-left: auto">
+            <div class="row">
+                <div class="col-sm-4 footer-squares">
+                    <img src="Images/logo_footer_genomi-k.png" id="imgLogoGK" alt="Genomik tamiz">
+                </div>
+                <!--- footer-squares---->
+                <div class="col-sm-2">
+                    <div class="footer-social">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>

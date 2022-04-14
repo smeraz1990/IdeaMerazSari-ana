@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Pagina principal</title>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <img class="imgLogo" src="../images/logogk.png">
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Servicios</a>
+
+                    <ul>
+                        <li><a href="serviciotk.html">Tamik</a></li>
+                        <li><a href="servicioak.html">Audi-k</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="misionyvision.html">Mision y Vision</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="gridContainerForm">
+        <section class="secFormulario">
+            <h2>Contactanos</h2>
+            <form class="contenidoFormulario">
+                <select class="FormControl">
+                        <option value="0" selected>Seleccione tipo de contacto</option>
+                        <option value="1">Papa/mama</option>
+                        <option value="2">Doctor</option>
+                    </select>
+                <input class="FormControl" type="text" placeholder="Nombre">
+                <input class="FormControl" type="text" placeholder="Apellido">
+                <input class="FormControl" type="text" placeholder="Correo">
+                <input class="FormControl" type="text" placeholder="Telefono">
+                <label>Programa de interes?</label>
+                <div class="contededorCheckInteres">
+                    <input type="checkbox" name="chkInteres" value="1"> Tami-k (Tamiz metabolico ampliado)
+                    <input type="checkbox" name="chkInteres" value="2"> Audi-k (Tamiz Auditivo)
+                </div>
+                <textarea class="FormControl" rows="5" placeholder="Comentarios"></textarea>
+                <button class="btnSend" type="button">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+    <footer class="secFooter">
+        <div class="container footer-container" style="margin-right: auto;margin-left: auto">
+            <div class="row">
+                <div class="col-sm-4 footer-squares">
+                    <img src="../Images/logo_footer_genomi-k.png" id="imgLogoGK" alt="Genomik tamiz">
+                </div>
+                <!--- footer-squares---->
+                <div class="col-sm-2">
+                    <div class="footerSocial">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
