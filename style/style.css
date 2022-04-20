@@ -5,103 +5,6 @@
     padding: 0;
 }
 
-
-/* posicionamiento de el menu */
-
-#menu {
-    height: 3.2em;
-    display: table;
-    margin: 0 auto;
-    text-align: center;
-}
-
-
-/* #menu ul li {
-    background-color: #2e518b;
-}
- */
-
-
-/* Estilo de la lista*/
-
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* Estilo de menus principales*/
-
-#menu ul a {
-    display: block;
-    color: #000;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 30px;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-
-/* pocicionamento de los contenedores del menu*/
-
-#menu ul li {
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 5px;
-}
-
-
-/* color al poner mouse sobre el menu*/
-
-#menu ul li:hover {
-    background: #5b78a7;
-}
-
-
-/* estilo para submenus*/
-
-#menu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 0;
-}
-
-
-/* posicionamiento para submenus*/
-
-#menu ul ul li {
-    float: none;
-    width: 150px
-}
-
-
-/* estilo para submenus*/
-
-#menu ul ul a {
-    line-height: 120%;
-    padding: 10px 15px;
-}
-
-
-/* posicionamiento para submenus*/
-
-#menu ul li:hover>ul {
-    display: block;
-}
-
-
-/*Imagenes Servicio*/
-
-
-/*Seccion de descripcion del servicio*/
-
 .secDescServicio h3 {
     display: block;
     font-size: 1.8em;
@@ -149,7 +52,7 @@
 }
 
 .imgLogo {
-    width: 10%;
+    width: 40%;
     margin-left: 5px;
     transition: all 0.5 ease-in;
 }
@@ -159,18 +62,7 @@
     transform: scale(1.1) translateY(-5px);
 }
 
-#mainHeader {
-    background: rgb(172, 206, 238);
-    color: white;
-    height: 87px;
-    width: 100%;
-    /* hacemos que la cabecera ocupe el ancho completo de la página */
-    left: 0;
-    /* Posicionamos la cabecera al lado izquierdo */
-    top: 0;
-    /* Hacemos que la cabecera tenga una posición fija */
-    display: flex;
-}
+
 
 
 /* Ajustes tres logos */
@@ -378,19 +270,13 @@ footer a {
 .secFooter {
     width: 100%;
     /*grid*/
-    display: flex;
+    background: radial-gradient(circle at 100%, blue,transparent);
 }
 
 .secFormulario {
-    text-align: center;
-    width: 100%;
-    grid-area: mainform;
     background-color: #003473;
-    padding: 3%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4%;
     color: white;
+    padding: 1%;
 }
 
 .formContactanos {
@@ -457,9 +343,6 @@ footer a {
     .col_d_2_logo img {
         width: 80%;
     }
-    .secFormulario {
-        grid-template-columns: 1fr 5fr 1fr;
-    }
     .formContactanos {
         margin-top: 10%;
     }
@@ -480,9 +363,6 @@ footer a {
     }
     .col_d_2_logo img {
         width: 80%;
-    }
-    .secFormulario {
-        grid-template-columns: 1fr;
     }
     .divs_dos_logos {
         display: grid;
