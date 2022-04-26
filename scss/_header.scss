@@ -1,0 +1,40 @@
+$vista: desktop;
+.imgLogo {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+    @media (max-width: 768px){
+        $vista: tablet;
+        @if $vista == tablet
+        {
+            width: 20%;
+            margin-top: 10px;
+        }
+    }
+    @media (max-width: 390px) {
+        $vista: mobile;
+        @if $vista == mobile{
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    width: 40%;
+    margin-left: 5px;
+    transition: all 0.5 ease-in;
+    .site-name {
+        display: block;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 0.8em;
+        color: #999;
+    }
+    &:hover {
+        color: grey;
+        background-color: white;
+        transform: scale(1.1) translateY(-5px);
+    }
+}

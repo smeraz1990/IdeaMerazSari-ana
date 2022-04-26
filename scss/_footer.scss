@@ -1,0 +1,19 @@
+.secFooter {
+    width: 100%;
+    background: radial-gradient(circle at 100%, blue,transparent);
+    .footerSocial {
+        color: white;
+        text-align: -webkit-center;
+    }
+    a {
+        color: white;
+        margin-right: 10px;
+        text-decoration: none;
+        -webkit-transition: 0.25s linear;
+        -moz-transition: 0.25s linear;
+        transition: 0.25s linear;
+        &:hover {
+            color: #6EAB3F
+        }
+    }
+}
