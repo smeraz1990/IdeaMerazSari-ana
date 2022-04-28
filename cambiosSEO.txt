@@ -1,0 +1,10 @@
+-Se agrega a todas las pantallas meta description a todas las paginas
+-Se  agrega titles diferentes a todas las paginas
+-Se hizo un barrido de las pantallas para corregir ortografia
+-Se agrega en el index ALT para las imagenes
+-Se agregaron h3 en algunos textos para remarcar la pagina, no se uso h1 porque no tengo titulos que lo requieran (visualmente es muy grande)
+-Se modificaron los meta-description a una logitud no mas de 100 caracteres
+-Se adaptaron los titles a una logitud no mas de 60 caracteres
+-Se agregaron los keywords a cada una de las pantallas
+-Se usaron urls cortas para el proyecto
+-Se acoplo el proyecto a directorios simple y directos (aparte que el proyecto es pequeño)
