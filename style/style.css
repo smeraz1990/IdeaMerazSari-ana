@@ -149,10 +149,6 @@ footer .container .row .footerSquares:nth-child(2) {
 footer .aviso_priv {
     margin-bottom: 10px;
     text-align: -webkit-center;
-    /* height: 6vh;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 footer .aviso_priv a:hover,
@@ -165,9 +161,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    /*background-color: #666;
-    background: radial-gradient(grey, violet);
-    background: radial-gradient(closest-side, blue, red, yellow);*/
     background: radial-gradient(circle at 100%, blue,transparent);
     color: white;
     text-align: center;
